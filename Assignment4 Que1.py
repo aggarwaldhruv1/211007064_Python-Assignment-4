@@ -7,7 +7,7 @@ Branch: Mechanical
 
 print("Assignment Question 1")
 
-marks = int(input("Enter your marks to know the corresponding grade:\n"))
+marks = float(input("Enter your marks to know the corresponding grade:\n"))
 if marks < 25:
     print("Grade: F")
 elif 25 <= marks < 45:
