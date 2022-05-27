@@ -18,5 +18,5 @@ elif 50 <= marks < 60:
     print("Grade: C")
 elif 60 <= marks < 80:
     print("Grade: B")
-elif marks >= 80:
-    print("Grade: A")
+else:
+    print("Your grade is A")
